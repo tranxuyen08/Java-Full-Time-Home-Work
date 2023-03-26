@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  width: 1440px;
+  display: block;
+}
+
+.header h1 {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  color: brown;
+  font-size: 3em;
+  font-style: italic;
+  padding: 20px;
+}
+h2{
+  color: blue;
+  font-style: italic;
+}
+.main-content {
+  display: flex;
+  width: 1000px;
+  padding-top: 20px;
+  margin: 0 auto;
+  background-color: rgb(162, 232, 220);
+  background-image: url(https://i.pinimg.com/736x/6f/4a/6f/6f4a6f8bdefc3aeb46b80ce7f7ae2cae.jpg);
+}
+
+.nav-main {
+  width: 40%;
+  display: grid;
+  justify-content: center;
+}
+.avarta::before{
+  -webkit-box-shadow: -13px -11px 5px beige;
+
+}
+.avarta {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  box-shadow: 15px 15px 5px beige;
+  -moz-box-shadow: 15px 15px 5px beige;
+  -webkit-box-shadow: 15px 15px 5px beige;
+  -khtml-box-shadow: 15px 15px 5px beige;
+}
+
+.section {
+  display: grid;
+  justify-content: center;
+  border-bottom: 3px solid blanchedalmond;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 250px;
+  background-color: blanchedalmond;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.text {
+  padding: 20px 0;
+}
+.contact-item{
+  display: flex;
+}
+.contact-item i{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.content-profile {
+  width: 70%;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.footer p{
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: orange;
+  font-weight: 800;
+}
